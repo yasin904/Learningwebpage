@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+
+}
+h1{
+    margin-top: 10px;
+    display: inline;
+    font-family: 'Raleway',sans-serif;
+}
+
+
+header{
+    width: 100%;
+    margin-left: 20px;
+    
+    height: 75px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px,78px;
+    background:white;
+    margin-left: 0px;
+    margin-top: 10px;
+    padding-top: 15px;
+    
+
+}
+
+#depth{
+    width: 130px;
+    size: 32px;
+    color: #0084ff;
+    margin-left: 20px;
+   
+    line-height: 0.8;
+    padding-top: 20px;
+    display: inline;
+}
+#stories{
+    margin: 0;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 20px;
+    margin-top: 0px;
+    
+}
+#stories-1{
+    line-height: 0.01;
+    margin-top: 0;
+
+}
+
+#explore{
+    margin-left: 150px;
+    display:inline-flex;
+    margin-bottom: 10px;
+    
+}
+.span{
+    display: inline;
+    color: #000;
+    margin-left: 30px;
+    align-items: center;
+    font-size:12px;
+    font-family: 'Raleway',sans-serif;
+    position: relative;
+   
+}
+.span i{
+    padding-left: 8px;
+    padding-top:0px;
+    align-items: center;
+}
+.span:hover{
+    cursor: pointer;
+}
+.container{
+    background-color:#efefef;
+    padding:16px 78px;
+    margin:0;
+    align-items: center;
+    margin-left:0;
+    
+    
+}
+/*.section-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding-right: 100px;
+    align-items: center;
+}
+
+.card{
+    background-color: #fff;
+    width: calc(33.3% - 20px);
+    height:350px;
+    margin: 10px;
+    border: 1px solid cornflowerblue;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.card-image{
+    height:176px;
+    
+    
+}
+.image-1{
+    background-image: url('https://edyoda.s3.amazonaws.com/media/blog-images/learn_machine_learning_courses_online.png');
+    background-size: cover;
+    width: 100%;
+    
+    
+
+}
+.image-2{
+    background-image: url('https://edyoda.s3.amazonaws.com/media/blog-images/6.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+
+}
+.image-3{
+    background-image: url('https://edyoda.s3.amazonaws.com/media/blog-images/4.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    
+
+}
+.image-4{
+    background-image: url('https://edyoda.s3.amazonaws.com/media/blog-images/3.png');
+    background-size: cover;
+    width: 100%;
+
+}
+.image-5{
+    background-image: url('https://edyoda.s3.amazonaws.com/media/blog-images/5.png');
+    background-size: cover;
+    width: 100%;
+    
+
+}
+.image-6{
+    background-image: url('https://edyoda.s3.amazonaws.com/media/blog-images/7.png');
+    background-size: cover;
+    width: 100%;
+    
+
+}
+.paragraph{
+    padding: 10px 24px;
+    size: 18px;
+    align-items: left;
+    margin: 0;
+    font-weight: 600;
+}
+.author{
+    padding-top: 4px;
+    color: #0096ff;
+    font-style: italic;
+    font-weight: 500;
+    padding-left: 10px;
+    margin-left: 10px;
+}
+.date{
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 300;
+}
+.writing{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.43;
+    color: rgba(0,0,0,.6);
+    margin: 4px 0;
+    
+} */
+
+
+.categories{
+    margin-top: 20px;
+    margin-left: 40px;
+    padding-left: 60px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    padding-top: 16px;
+    align-items: center;
+}
+.h2{
+    
+    color: #000;
+    font-weight: 600;
+    margin:0;
+}
+.span-1{
+    display: inline;
+    margin-left: 8px;
+    
+}
+.span-1 i{
+    color:#185b99;
+    margin-right: 5px;
+
+}
+.filter{
+    margin-left: 10px;
+    padding-left: 80px;
+}
+.category-container{
+    padding:6px;
+    list-style: none;
+    margin-left: 90px;
+    box-sizing: border-box;
+    
+}
+.ul-des{
+    display: inline-block;
+    width: auto;
+   justify-content: space-between;
+    color: #0084ff;
+    border-radius:  15px;
+    border: 1px solid #0084ff;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+    
+    
+}
+button{
+    background-color: #f7fbff;
+    border: 1px solid #0084ff;
+    padding: 6px 14px;
+    width: auto;
+    color: #0084ff;
+    border-radius: 15px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+
+button.active{
+    background-color: #0084ff;
+    color: #fff;
+}
+.btn button:hover{
+    background-color: #0084ff;
+    color: #fff;
+}
+
+.row {
+    margin-left:60px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding-bottom:20px;
+    padding-left:20px;
+  }
+  .card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    background-color: #ffff;
+    border: 1px solid #0084ff;
+    border-radius: 5px;
+  }  
+ .card h1{
+    font-family: Raleway,sans-serif;
+    text-align: left;
+    font-size: 20px;
+    margin:0;
+    font-weight: 600;
+    letter-spacing:0.9;
+ } 
+ .text-section{
+    padding: 10px 24px;
+ }
+ .text-section p{
+    font-family: Raleway,sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1.43;
+    letter-spacing:0.9;
+    font-weight: 400;
+    color:rgba(0,0,0,.6);
+    margin:4px 0;
+ }
+ .text-section a{
+    text-decoration: none;
+    font-family: Raleway,sans-serif;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    color:#0096ff;
+ }
+.author{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
+}
+.author span{
+font-size: 15px;
+font-weight: 300;
+color:rgba(0,0,0,0.7);
+}
+footer{
+    background-color: #172146;
+    padding: 40px 16%;
+   
+
+}
